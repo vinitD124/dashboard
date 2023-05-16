@@ -316,7 +316,21 @@ body{
         width: 100%;
     }
 
+    #interface .navigation .search {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 7px 4px 2px 7px;
+    }
  
 
     
+}
+
+
+@media screen and (max-width: 400px){
+
+    #interface .navigation .profile i {
+        display: none;
+    }
 }
