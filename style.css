@@ -269,11 +269,7 @@ body{
 }
 
 
-.n1{
-    display: flex;
-    align-items: center;
-    justify-content: center ;
-}
+
 
 @media screen and (max-width: 769px) {
     #menu {
@@ -333,4 +329,11 @@ body{
     #interface .navigation .profile i {
         display: none;
     }
+}
+
+
+.n1{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
 }
